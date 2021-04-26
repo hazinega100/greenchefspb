@@ -1,0 +1,24 @@
+.menu {
+    margin: 0;
+    height: 50px;
+    // border-bottom: 2px dotted #333;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style-type: none;
+    &_link {
+        font-weight: 500;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #333;
+        :hover {
+            color: $main-color;
+            transition: all 0.5s;
+            text-decoration: underline;
+        }
+    }
+}
+.line {
+    height: 1px;
+    background-color: #333;
+}
