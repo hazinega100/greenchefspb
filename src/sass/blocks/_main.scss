@@ -1,12 +1,13 @@
 .main {
     padding: 30px 0 50px 0;
     min-height: 400px;
-    background: url('../img/bg.png') center (center / cover) no-repeat;
+    background: url('../img/bg.jpeg') center (center / cover) no-repeat;
     .title {
         font-size: 48px;
         font-weight: 900;
-        color: $main-color;
+        color: #000;
         text-align: center;
+        opacity: .6;
     }
     &__item {
         margin-top: 30px;
